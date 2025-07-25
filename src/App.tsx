@@ -3,7 +3,9 @@
 //import Props from "./starter/02-props";
 //import States from "./starter/03-state";
 //import Events from "./starter/04-event";
-import ParentComponet  from "./starter/05-context";
+//import ParentComponet  from "./starter/05-context";
+//import Reducer from "./starter/06-reducer";
+import FetchData1 from "./starter/07-fetchdata";
 function App() {
   return (
     <main>
@@ -11,7 +13,9 @@ function App() {
       {/* <Props name="srikanth" id={123} /> */}
       {/* <States/> */}
       {/* <Events /> */}
-      <ParentComponet />
+      {/* <ParentComponet /> */}
+      {/* <Reducer/> */}
+      <FetchData1 />
     </main>
   );
 }
